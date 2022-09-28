@@ -1,0 +1,36 @@
+*{
+    margin :0;
+}
+
+nav{
+    background-color: red;
+}
+
+.contenedor__navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: red;
+    color: white;
+}
+
+nav ul{
+    display:flex;
+    list-style: none;
+    gap:1rem;
+}
+
+nav ul li{
+    cursor:pointer;
+    transition: 0.3s ease;
+}
+
+nav ul li:hover{
+    font-size: 20px;
+}
+
+.center{
+    max-width: 1200px;
+    margin: auto 0;
+}

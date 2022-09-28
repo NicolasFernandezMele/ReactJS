@@ -1,9 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar/Navbar.js';
+
 
 function App() {
   return (
-    <p>hola</p>
+    
+    <Navbar />
+
+
+
   );
 }
 
