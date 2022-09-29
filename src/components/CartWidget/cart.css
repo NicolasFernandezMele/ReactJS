@@ -1,0 +1,23 @@
+.imagen img{
+    width: 35px;
+}
+.imagen{
+    padding: 12px;
+    display: flex;
+    background-color: white;
+    border-radius: 15%;
+    transition: 0.5s;
+    
+}
+
+.imagen:hover{
+ background-color: rgb(211, 211, 255)
+
+}
+
+.imagen p{
+    
+    margin-left:5px;
+    font-size: 23px;
+    color: black
+}
