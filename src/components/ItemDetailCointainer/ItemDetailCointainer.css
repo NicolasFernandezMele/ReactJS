@@ -1,0 +1,17 @@
+.tarjeta__detalle{
+max-width: 300px;
+margin: 0 auto;
+border: 1px solid black;
+    border-radius: 15px;
+    padding: 50px;
+}
+
+.tarjeta__detalle img{
+
+    width: 250px;
+    }
+
+    .tarjeta__detalle--datos{
+        display:flex;
+        flex-direction: column;
+    }
