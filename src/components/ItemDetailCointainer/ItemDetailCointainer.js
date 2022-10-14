@@ -5,7 +5,7 @@ import ItemDetail from "../ItemDetail/ItemDetail.js"
 import { useParams } from "react-router-dom";
 
 const ItemDetailCointainer = () => {
-    const [product, setProduct] = useState([]);
+const [product, setProduct] = useState([]);
 const {productoId} = useParams();
     
 

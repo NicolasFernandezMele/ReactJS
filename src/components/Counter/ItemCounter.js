@@ -1,13 +1,16 @@
 import { useState } from "react";
+import ItemDetail from "../ItemDetail/ItemDetail";
 
-let stock = 4;
 
-const ItemCounter = ({onAdd}) => {
+const ItemCounter = (stock, {onAdd}) => {
 const [count,setCount] = useState(0);
 
+console.log(stock.enviaStock);
+
 const mas = () =>{
-if(count<4)
+    if(count<stock.enviaStock){
     setCount(count+1);
+}
 }
 
 const menos = () =>{

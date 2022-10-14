@@ -6,7 +6,7 @@ const products = [
     precio:234,
     category:'',
     img:'/image/Escoba.jpg',
-    stock:0,
+    stock:5,
     descripcion:"loremasdsadf deifvd d8df dkfmslfd ddkf dkfslmflsd aioasnsssd fsd dksmvviii dskm dkls"
 },{
     id:"2",
@@ -14,7 +14,7 @@ const products = [
     precio:1234,
     category:'',
     img:'/image/pala.jpg',
-    stock:0,
+    stock:6,
     descripcion:"loremasdsadf deifvd d8df dkfmslfd ddkf dkfslmflsd aioasnsssd fsd dksmvviii dskm dkls"
 },{
     id:"3",
@@ -22,7 +22,7 @@ const products = [
     precio:12334,
     category:'',
     img:'/image/Tacho.jfif',
-    stock:0,
+    stock:12,
     descripcion:"loremasdsadf deifvd d8df dkfmslfd ddkf dkfslmflsd aioasnsssd fsd dksmvviii dskm dkls"}
 ]
 
